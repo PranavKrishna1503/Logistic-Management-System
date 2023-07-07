@@ -1,0 +1,463 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGJMSCxjw25mGo=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGJMSCxkQ26BB0=",
+					"_parent": {
+						"$ref": "AAAAAAGJMSCxjw25mGo="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGJMSCxkQ27l9Y=",
+							"_parent": {
+								"$ref": "AAAAAAGJMSCxkQ26BB0="
+							},
+							"name": "SequenceDiagram1",
+							"ownedViews": [
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGJMSDQIQ3Kj1s=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"model": {
+										"$ref": "AAAAAAGJMSDQIQ3JUrU="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGJMSDQIQ3LCNY=",
+											"_parent": {
+												"$ref": "AAAAAAGJMSDQIQ3Kj1s="
+											},
+											"model": {
+												"$ref": "AAAAAAGJMSDQIQ3JUrU="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSDQIQ3MKFA=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSDQIQ3LCNY="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSDQIQ3Nc34=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSDQIQ3LCNY="
+													},
+													"font": "Arial;13;1",
+													"left": 77,
+													"top": 47,
+													"width": 117.6181640625,
+													"height": 13,
+													"text": "Login or Regsiter"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSDQIg3OIB4=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSDQIQ3LCNY="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSDQIg3PGgE=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSDQIQ3LCNY="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 72,
+											"top": 40,
+											"width": 127.6181640625,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGJMSDQIQ3MKFA="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGJMSDQIQ3Nc34="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGJMSDQIg3OIB4="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGJMSDQIg3PGgE="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGJMSDQIg3QYkg=",
+											"_parent": {
+												"$ref": "AAAAAAGJMSDQIQ3Kj1s="
+											},
+											"model": {
+												"$ref": "AAAAAAGJMSDQIQ3JUrU="
+											},
+											"font": "Arial;13;0",
+											"left": 136,
+											"top": 80,
+											"width": 1,
+											"height": 377
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 72,
+									"top": 40,
+									"width": 127.6181640625,
+									"height": 417,
+									"nameCompartment": {
+										"$ref": "AAAAAAGJMSDQIQ3LCNY="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGJMSDQIg3QYkg="
+									}
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMSG+GA3pziw=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 64,
+									"top": 120,
+									"width": 144,
+									"height": 64,
+									"text": "Show products available and details about products"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMSJyVw3u9qs=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 56,
+									"top": 224,
+									"width": 168,
+									"height": 48,
+									"text": "Orders required product \nand mention the quantity"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMSOGfg32p8c=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 56,
+									"top": 320,
+									"width": 160,
+									"height": 48,
+									"text": "Takes to confirmation page"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMSVw/w4D6KM=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 56,
+									"top": 416,
+									"width": 161,
+									"height": 48,
+									"text": "Places order"
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGJMSXtBw4Ljqo=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"model": {
+										"$ref": "AAAAAAGJMSXtBw4KeJA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGJMSXtCA4MP0Q=",
+											"_parent": {
+												"$ref": "AAAAAAGJMSXtBw4Ljqo="
+											},
+											"model": {
+												"$ref": "AAAAAAGJMSXtBw4KeJA="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSXtCA4Nzok=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSXtCA4MP0Q="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -48,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSXtCA4OALM=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSXtCA4MP0Q="
+													},
+													"font": "Arial;13;1",
+													"left": 317,
+													"top": 47,
+													"width": 138.1083984375,
+													"height": 13,
+													"text": "WareHouse Manager"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSXtCA4Pa2g=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSXtCA4MP0Q="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -48,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGJMSXtCA4Q9KY=",
+													"_parent": {
+														"$ref": "AAAAAAGJMSXtCA4MP0Q="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -48,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 312,
+											"top": 40,
+											"width": 148.1083984375,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGJMSXtCA4Nzok="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGJMSXtCA4OALM="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGJMSXtCA4Pa2g="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGJMSXtCA4Q9KY="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGJMSXtCA4RSCE=",
+											"_parent": {
+												"$ref": "AAAAAAGJMSXtBw4Ljqo="
+											},
+											"model": {
+												"$ref": "AAAAAAGJMSXtBw4KeJA="
+											},
+											"font": "Arial;13;0",
+											"left": 386,
+											"top": 80,
+											"width": 1,
+											"height": 385
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 312,
+									"top": 40,
+									"width": 148.1083984375,
+									"height": 425,
+									"nameCompartment": {
+										"$ref": "AAAAAAGJMSXtCA4MP0Q="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGJMSXtCA4RSCE="
+									}
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMScnpA5QbnM=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 112,
+									"width": 136,
+									"height": 41,
+									"text": "Receives the order "
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMSeP6Q5Uxb4=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 176,
+									"width": 136,
+									"height": 53,
+									"text": "Checks for the \nproduct availability"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMSjmFA5epyM=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 248,
+									"width": 136,
+									"height": 56,
+									"text": "If product available,\nprocesses the order"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMSsaug6bPI0=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 320,
+									"width": 128,
+									"height": 68,
+									"text": "If not available, \nrequests vendor for\nthe product"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGJMS7eWw8dS28=",
+									"_parent": {
+										"$ref": "AAAAAAGJMSCxkQ27l9Y="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 408,
+									"width": 128,
+									"height": 56,
+									"text": "Order gets dispatched and being delivered"
+								}
+							]
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGJMSDQIQ3JUrU=",
+							"_parent": {
+								"$ref": "AAAAAAGJMSCxkQ26BB0="
+							},
+							"name": "Login or Regsiter",
+							"represent": {
+								"$ref": "AAAAAAGJMSDQIQ3IcRw="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGJMSXtBw4KeJA=",
+							"_parent": {
+								"$ref": "AAAAAAGJMSCxkQ26BB0="
+							},
+							"name": "WareHouse Manager",
+							"represent": {
+								"$ref": "AAAAAAGJMSXtBw4JqEw="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGJMSDQIQ3IcRw=",
+					"_parent": {
+						"$ref": "AAAAAAGJMSCxjw25mGo="
+					},
+					"name": "Role1"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGJMSXtBw4JqEw=",
+					"_parent": {
+						"$ref": "AAAAAAGJMSCxjw25mGo="
+					},
+					"name": "Role2"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGJMSve6Q6gV1k=",
+					"_parent": {
+						"$ref": "AAAAAAGJMSCxjw25mGo="
+					},
+					"name": "Role3",
+					"type": ""
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGJMS1HCA7nz+Y=",
+					"_parent": {
+						"$ref": "AAAAAAGJMSCxjw25mGo="
+					},
+					"name": "Role4"
+				}
+			]
+		}
+	]
+}
